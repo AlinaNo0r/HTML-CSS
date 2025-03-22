@@ -1,0 +1,328 @@
+
+ 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:   'Arial  Bold', sans-serif;
+   
+}
+
+.hero{
+    height: auto;
+    width: 100%;
+background-color: black;
+padding-bottom: 30px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: black;
+    border: solid,rgb(116, 70, 185);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    
+}
+.logo{
+    font-size: 36px;
+     letter-spacing: 4px;
+     color: white;
+     font-family: Impact;
+     padding-top: 02%;
+     padding-bottom: 0px;
+}
+span{
+    color: rgb(116, 70, 185);
+    font-family: Impact;
+}
+
+nav ul li{
+    
+    display: inline-block;
+    padding-right: 25px; 
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(116, 70, 185);
+    transition: .4 s;
+}
+.btn{
+    border: 2px,solid,transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color:white;
+    border-radius: 30px;
+    background-color: rgb(116, 70, 185);
+}
+.btn:hover{
+    transform: scale(1.25);
+}
+.content{
+    
+    padding-top: 10%;
+    padding-left: 8%;
+
+}
+/* .hero .image{
+    height: 280px;
+    width: 420px;
+    margin-left: 10%;
+    border-radius: 35px;
+    display: flex;
+    position: sticky;
+} */
+h2{
+    color:white;
+    font-size :75px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+h4{
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+h3{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    padding-left: 8%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    padding-left: 25px;
+    padding-top: 14px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border: 2px, solid, rgb(116, 70, 185);
+    display: inline-block;
+    width: 100%;
+    border-radius: 25px;
+}
+.newsletter form input:last-child{
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    background-color:  rgb(116, 70, 185);
+    position: absolute;
+    outline: none;
+    display: inline-block;
+    width: 30%;
+    border: none;
+    border-radius: 25px;
+    color:white;
+    box-shadow: 2px rgb(116, 70, 185) ;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    background-color:#191919;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+}
+.Aboutcontent h2{
+color: rgb(116, 70, 185);
+text-transform: capitalize;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Aboutcontent{
+    color: white;
+    width: 550px;
+    margin-left: 80px;
+
+    
+
+
+}
+.about img{
+    height: auto;
+    width: 420px;
+    margin-left: 10%;
+    border-radius: 15px;
+    
+}
+.about h3{
+    font-size:40px;
+}
+.main{
+    max-width: 95%;
+    width: 1130px;
+    display: flex;
+    margin-top: 50px;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.about p{
+    letter-spacing: 1 px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.about button{
+    border: 2px,solid,transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    padding-right: 15px;
+    text-decoration: none;
+    color:white;
+    border-radius: 30px;
+    background-color: rgb(116, 70, 185);
+    margin-bottom: 30px;
+
+
+}
+.about button:hover{
+    border: 2px,solid,rgb(116, 70, 185);
+    background-color: transparent;
+    cursor: pointer;
+}
+.service{
+    background-color: #101010;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.service .Title h2{
+    text-align: center;
+    font-size: 55px;
+    padding-bottom: 40px;
+    color: white;
+
+}
+.box{
+    background-color: #191919;
+    width: 25%;
+    border: transparent;
+    border-radius: 15px;
+    display:inline-block;
+    min-height: 370px;
+    justify-items: center;
+    justify-content: space-around;
+    margin-right: 3%;
+
+}
+.box i{
+    font-size: 55px;
+    color: rebeccapurple;
+    display: block;
+    justify-items:center;
+    padding-top: 60px;
+    
+}
+.box h5{
+    font-size: 30px;
+    color: white;
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.cards{
+    justify-items: center;
+    margin-left: 12%;
+    
+
+}
+.pra{
+    font-size: 18px;
+    color: white;
+    justify-items: center;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+
+
+}
+.box .button{
+    background-color: rebeccapurple;
+    border: 2px,solid,transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+
+.box a{
+    color: white;
+    text-decoration: none;
+}
+.button:hover {
+    border: 2px,solid,rgb(116, 70, 185);
+    background-color: transparent;
+    cursor: pointer;
+}
+.contact-me{
+    background-color: #191919;
+}
+.top-bar{
+    background-color: #191919;
+    justify-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.top-bar h3{
+    font-family: 'Lucida Sans';
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+.top-bar .anotherbutton{
+    background-color: rebeccapurple;
+    border: 2px,solid,transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.anotherbutton:hover{
+    border: 2px,solid,rgb(116, 70, 185);
+    background-color: transparent;
+    cursor: pointer;
+
+}
+footer{
+    
+    justify-items: center;
+}
